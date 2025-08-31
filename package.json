@@ -1,0 +1,29 @@
+
+{
+  "name": "emergency-room-managment",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc -p .",
+    "test": "vitest run || jest --ci"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "gitignore": "^0.7.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^4.0.6"
+  }
+}
